@@ -4,7 +4,7 @@ void main() {
   runApp(const SparepartKuApp());
 }
 
-// MaterialApp mengatur tema, halaman awal, dan named routes aplikasi.
+// MaterialApp
 class SparepartKuApp extends StatelessWidget {
   const SparepartKuApp({super.key});
 
@@ -32,7 +32,7 @@ class SparepartKuApp extends StatelessWidget {
   }
 }
 
-// Widget Drawer dipakai bersama oleh beberapa halaman.
+// Widget Drawer
 class MenuDrawer extends StatelessWidget {
   const MenuDrawer({super.key});
 
@@ -109,8 +109,7 @@ class MenuDrawer extends StatelessWidget {
   }
 }
 
-// HALAMAN 1: Beranda. Mendemonstrasikan Scaffold, AppBar, Drawer,
-// Center, Container, Text, SizedBox, dan FloatingActionButton.
+// HALAMAN 1: Beranda.
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -180,8 +179,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// HALAMAN 2: Contoh layout dengan Row, Column, Expanded, SizedBox,
-// Container, Padding, dan Align.
+// HALAMAN 2
 class LayoutPage extends StatelessWidget {
   const LayoutPage({super.key});
 
@@ -273,7 +271,7 @@ class LayoutPage extends StatelessWidget {
   }
 }
 
-// HALAMAN 3: ListView menampilkan daftar sparepart.
+// HALAMAN 3
 class KatalogPage extends StatelessWidget {
   const KatalogPage({super.key});
 
@@ -321,7 +319,7 @@ class KatalogPage extends StatelessWidget {
   }
 }
 
-// HALAMAN 4: GridView menampilkan kategori dalam bentuk kotak.
+// HALAMAN 4
 class KategoriPage extends StatelessWidget {
   const KategoriPage({super.key});
 
@@ -373,8 +371,7 @@ class KategoriPage extends StatelessWidget {
   }
 }
 
-// HALAMAN 5: Form menggunakan TextField dan ElevatedButton.
-// Data belum disimpan ke database; tombol menampilkan notifikasi.
+// HALAMAN 5: Form
 class FormBarangPage extends StatefulWidget {
   const FormBarangPage({super.key});
 
